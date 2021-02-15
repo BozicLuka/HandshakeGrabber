@@ -1,4 +1,4 @@
-#import module to run terminal commands
+#imports module to run terminal commands
 import os
 
 
