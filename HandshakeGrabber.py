@@ -1,4 +1,4 @@
-#imports module to run terminal commands
+#import module to run terminal commands
 import os
 
 
@@ -13,7 +13,7 @@ card = input("Enter card name: ")
 #starts wireless card in monitor mode
 command = "sudo airmon-ng start " + card
 
-os.system(str(command))
+os.system(command)
 
 
 #starts airodump-ng so you can find the network bssid
